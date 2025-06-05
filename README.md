@@ -35,8 +35,8 @@ dependencies:
 ![Screenshot Blocker Full Code](mockup_images/dispose_code.png)
 
 
-## 📸 Demo Preview
+## 📸 Example Code:
+![full_code.png](mockup%20images%2Ffull_code.png)
 
-Below is a preview of the `screenshot_blocker` plugin in action:
-
-![Screenshot Blocker Demo](https://github.com/user-attachments/assets/d0292cae-81cb-45e2-a96e-7ee56ba59b06)
+##Important note:
+![dispose.png](mockup%20images%2Fdispose.png)
