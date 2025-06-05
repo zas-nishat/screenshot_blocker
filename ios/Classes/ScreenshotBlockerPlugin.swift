@@ -14,8 +14,16 @@ public class ScreenshotBlockerPlugin: NSObject, FlutterPlugin, FlutterStreamHand
   }
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
-    // iOS does not support FLAG_SECURE functionality
-    result(nil)
+    switch call.method {
+    case "secureScreen", "clearSecureScreen":
+      // No-op: iOS does not support secure screen locking
+      print("[screenshot_blocker] \(call.method) called — not supported on iOS")
+      result(nil)
+    case "getPlatformVersion":
+      result("iOS " + UIDevice.current.systemVersion)
+    default:
+      result(FlutterMethodNotImplemented)
+    }
   }
 
   public func onListen(withArguments arguments: Any?, eventSink: @escaping FlutterEventSink) -> FlutterError? {
@@ -35,6 +43,6 @@ public class ScreenshotBlockerPlugin: NSObject, FlutterPlugin, FlutterStreamHand
   }
 
   @objc private func screenshotTaken() {
-    eventSink?(nil) // Send null event
+    eventSink?("screenshot_taken")
   }
 }
