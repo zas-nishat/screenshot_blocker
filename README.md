@@ -28,8 +28,15 @@ dependencies:
   screenshot_blocker: ^0.1.0
 
 
-![Screenshot Allowed Page Code](mockup_images/screenshot_allowed_page_code.png)
+![Screenshot Allowed Page Code](mockup_images/full_code.png)
 
 > ✅ Add this on pages where screenshots are allowed.
 
-![Screenshot Blocker Full Code](mockup_images/screenshot_full_code.png)
+![Screenshot Blocker Full Code](mockup_images/dispose_code.png)
+
+
+## 📸 Demo Preview
+
+Below is a preview of the `screenshot_blocker` plugin in action:
+
+![Screenshot Blocker Demo](https://github.com/user-attachments/assets/d0292cae-81cb-45e2-a96e-7ee56ba59b06)
