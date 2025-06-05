@@ -16,18 +16,10 @@ A Flutter plugin to **prevent screenshots and screen recordings on Android**, an
 
 - 🚫 **Web**
     - Not supported yet (due to platform limitations)
-
----
-
-## 🧩 Installation
-
-Add the package to your `pubspec.yaml`:
-
-```yaml
-dependencies:
-  screenshot_blocker: ^0.1.0
+  
 
 
+ --- 
 ![Screenshot Allowed Page Code](mockup_images/full_code.png)
 
 > ✅ Add this on pages where screenshots are allowed.
@@ -40,3 +32,16 @@ dependencies:
 
 ##Important note:
 ![dispose.png](mockup%20images%2Fdispose.png)
+
+--- 
+
+---
+
+## 🧩 Installation
+
+Add the package to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  screenshot_blocker: ^0.1.0
+
