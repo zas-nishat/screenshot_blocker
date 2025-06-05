@@ -1,7 +1,7 @@
 name: screenshot_blocker
-description: "A new Flutter plugin project."
-version: 0.0.1
-homepage:
+description: A Flutter plugin to prevent screenshots and screen recording for Android.
+version: 0.1.0
+homepage: https://github.com/zas-nishat/screenshot_blocker
 
 environment:
   sdk: ^3.7.0

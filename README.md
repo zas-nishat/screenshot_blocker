@@ -1,7 +1,24 @@
-[√] Flutter (Channel stable, 3.24.5, on Microsoft Windows [Version 10.0.19045.5854], locale en-GB) [554ms]
-• Flutter version 3.24.5 on channel stable at C:\Flutter\flutter
-• Upstream repository https://github.com/flutter/flutter.git
-• Engine revision f73bfc4522
-• Dart version 3.7.0
-• DevTools version 2.42.2
-• Owner: https://github.com/zas-nishat
+# screenshot_blocker
+
+A Flutter plugin to **prevent screenshots and screen recordings on Android** by setting the native `FLAG_SECURE` flag on the app window.
+
+---
+
+## Features
+
+- Prevent screenshots and screen recordings on Android devices
+- Easy to enable or disable screenshot blocking at runtime
+- Minimal setup required
+- Lightweight and focused on Android platform
+
+---
+
+## Installation
+
+Add this to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  screenshot_blocker: ^0.1.0
+
+
