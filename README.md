@@ -33,5 +33,5 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  screenshot_blocker: ^0.1.0
+  screenshot_blocker: ^0.3.0
 

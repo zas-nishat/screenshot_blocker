@@ -1,3 +1,5 @@
-## 0.2.0
+## 0.3.0
 
-* TODO: Describe initial release.
+* Initial release.
+
+* Updated compatibility: Now supports Dart SDK version from 2.17.0 and later.
